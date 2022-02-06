@@ -16,11 +16,13 @@ Installation:
 -  Download MongoDB Compass
 - Create MongoDB server via atlas
 -  Connect to MongoDB Server (Atlas) via laravel:open file config/database.php, and modify here:
+```php
 'mongodb' => [
                   'driver' => 'mongodb',
                   'dsn' => env('DB_URI', 'mongodb+srv://<username>:<password>@<database_url>'),
                   'database' => '<database_name>',
        ]
+```
 - Upload MongoDB document in your own MongoDB server.
 - Download + install certificate SSL to connect via Laravel to MongoDB server.
 - Start laravel server via command: php artisan serve.
