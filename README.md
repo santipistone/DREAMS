@@ -17,7 +17,7 @@ Installation:
 -  Download MongoDB Compass
 - Create MongoDB server via atlas
 -  Connect to MongoDB Server (Atlas) via laravel: 
-- - open file config/database.php, and modify here:
+-- open file config/database.php, and modify here:
 ```php
 'mongodb' => [
                   'driver' => 'mongodb',
