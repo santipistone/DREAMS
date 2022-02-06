@@ -1,0 +1,122 @@
+[{
+  "_id": {
+    "$oid": "61f419dbffc13d29f9597641"
+  },
+  "username": "prova",
+  "password": "prova",
+  "policy": true,
+  "loc_id": 3,
+  "ticket": [
+    {
+      "id": {
+        "$oid": "61fc14511f2f0000b8003cf6"
+      },
+      "sender": "61f41a32ffc13d29f9597642"
+    },
+    {
+      "id": {
+        "$oid": "61fc145b1f2f0000b8003cf8"
+      },
+      "sender": "61f41a32ffc13d29f9597642"
+    },
+    {
+      "id": {
+        "$oid": "61fc14601f2f0000b8003cfa"
+      },
+      "sender": "61f41a32ffc13d29f9597642"
+    },
+    {
+      "id": {
+        "$oid": "61fc14631f2f0000b8003cfc"
+      },
+      "sender": "61f41a32ffc13d29f9597642"
+    },
+    {
+      "id": {
+        "$oid": "61fc14661f2f0000b8003cfe"
+      },
+      "sender": "61f41a32ffc13d29f9597642"
+    }
+  ],
+  "farmer": [
+    "61f41a32ffc13d29f9597642",
+    "61f7fe92db6fb3d474b82ae4",
+    "61fe80b6db6fb3d474b82ae6",
+    "61fe80c9db6fb3d474b82ae7"
+  ],
+  "direct_connection": [
+    {
+      "1": "61f41a32ffc13d29f9597642",
+      "2": "61f7fe92db6fb3d474b82ae4",
+      "id": {
+        "$oid": "61f8214e594900000e000758"
+      }
+    },
+    {
+      "1": "61f7fe92db6fb3d474b82ae4",
+      "2": "61f41a32ffc13d29f9597642",
+      "id": {
+        "$oid": "61fe7e1b7c6b0000090015a4"
+      }
+    },
+    {
+      "1": "61f41a32ffc13d29f9597642",
+      "2": "61f7fe92db6fb3d474b82ae4",
+      "id": {
+        "$oid": "61fe7f9d7c6b0000090015a6"
+      }
+    },
+    {
+      "1": "61fe80b6db6fb3d474b82ae6",
+      "2": "61fe80c9db6fb3d474b82ae7",
+      "id": {
+        "$oid": "61fe82ed7c6b0000090015a8"
+      }
+    }
+  ],
+  "nome": "Darsh"
+},{
+  "_id": {
+    "$oid": "61f41a32ffc13d29f9597642"
+  },
+  "username": "prova1",
+  "password": "prova1",
+  "nome": "Amar",
+  "point": {
+    "1": "5",
+    "2": "10"
+  }
+},{
+  "_id": {
+    "$oid": "61f7fe92db6fb3d474b82ae4"
+  },
+  "username": "prova3",
+  "password": "prova",
+  "nome": "Nila",
+  "point": {
+    "1": "6",
+    "2": "40"
+  }
+},{
+  "_id": {
+    "$oid": "61fe80b6db6fb3d474b82ae6"
+  },
+  "username": "prova4",
+  "password": "prova",
+  "nome": "Jaya",
+  "point": {
+    "1": "100",
+    "3": "80"
+  }
+},{
+  "_id": {
+    "$oid": "61fe80c9db6fb3d474b82ae7"
+  },
+  "username": "prova5",
+  "password": "prova",
+  "nome": "Shaan",
+  "point": {
+    "1": "40",
+    "2": "80"
+  }
+}]

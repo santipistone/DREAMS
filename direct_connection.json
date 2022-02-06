@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "61f8214e594900000e000759"
+  },
+  "id": "61f8214e594900000e000758",
+  "message": [
+    {
+      "Sender": "61f41a32ffc13d29f9597642",
+      "Text": "Hello, can u help me?"
+    },
+    {
+      "Sender": "61f419dbffc13d29f9597641",
+      "Text": "Of course!"
+    }
+  ],
+  "updated_at": {
+    "$date": "2022-01-31T17:50:06.950Z"
+  },
+  "created_at": {
+    "$date": "2022-01-31T17:50:06.950Z"
+  }
+},{
+  "_id": {
+    "$oid": "61fe7e1b7c6b0000090015a5"
+  },
+  "id": "61fe7e1b7c6b0000090015a4",
+  "message": [
+    {
+      "Sender": "61f419dbffc13d29f9597641",
+      "Text": "Welcome to direct connection."
+    }
+  ],
+  "updated_at": {
+    "$date": "2022-02-05T13:39:39.919Z"
+  },
+  "created_at": {
+    "$date": "2022-02-05T13:39:39.919Z"
+  }
+},{
+  "_id": {
+    "$oid": "61fe7f9d7c6b0000090015a7"
+  },
+  "id": "61fe7f9d7c6b0000090015a6",
+  "message": [
+    {
+      "Sender": "61f419dbffc13d29f9597641",
+      "Text": "Hello, help?"
+    }
+  ],
+  "updated_at": {
+    "$date": "2022-02-05T13:46:05.833Z"
+  },
+  "created_at": {
+    "$date": "2022-02-05T13:46:05.833Z"
+  }
+},{
+  "_id": {
+    "$oid": "61fe82ed7c6b0000090015a9"
+  },
+  "id": "61fe82ed7c6b0000090015a8",
+  "message": [
+    {
+      "Sender": "61f419dbffc13d29f9597641",
+      "Text": "Hi man!"
+    }
+  ],
+  "updated_at": {
+    "$date": "2022-02-05T14:00:13.101Z"
+  },
+  "created_at": {
+    "$date": "2022-02-05T14:00:13.101Z"
+  }
+}]
