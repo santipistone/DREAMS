@@ -26,7 +26,13 @@ Installation:
 ```
 - Upload MongoDB document in your own MongoDB server.
 - Download + install certificate SSL to connect via Laravel to MongoDB server.
-- Start laravel server via command: 
+- Download DREAMS code via GitHub
+- Select directory of DREAMS code
+- Start DREAMS server via command: 
 ```
 php artisan serve
+```
+-Connect on :
+```
+localhost:8000
 ```
