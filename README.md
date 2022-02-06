@@ -20,7 +20,7 @@ Installation:
                   'driver' => 'mongodb',
                   'dsn' => env('DB_URI', 'mongodb+srv://<username>:<password>@<database_url>'),
                   'database' => '<database_name>',
-       ],  
+       ]
 7- Upload MongoDB document in your own MongoDB server.
 8- Download + install certificate SSL to connect via Laravel to MongoDB server.
 9- Start laravel server via command: php artisan serve.
