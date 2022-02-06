@@ -28,5 +28,5 @@ Installation:
 - Download + install certificate SSL to connect via Laravel to MongoDB server.
 - Start laravel server via command: 
 ```
-php artisan serve.
+php artisan serve
 ```
