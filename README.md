@@ -7,7 +7,7 @@ Code v1.0 Updated 06/02/2022.
 
 Policy Maker side.
 
-Installion:
+Installation:
 
 
 - Download + install php
@@ -19,4 +19,4 @@ Installion:
 - Download + install laravel-mongodb.
 - Download + install certificate SSL to connect via Laravel to MongoDB server.
 - Insert MongoDB server credential in code.
-- Start laravel server.
+- Start laravel server via: php artisan serve.
