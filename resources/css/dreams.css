@@ -1,0 +1,198 @@
+.container {
+    border: 1px solid;
+    height: 400px;
+    width: 700px;
+    background-image: url("dreamsBackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.upBox {
+    height: 60px;
+    width: 320px;
+   /* border: 1px solid;*/
+    display: inline-block;
+    margin-left: 18px;
+    position: relative;
+}
+
+.notification-button{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    margin-top: 6px;
+    right: 50px;
+    background-color: transparent;
+
+}
+
+.icon-button__badge{
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    width: 15px;
+    height: 15px;
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.account-button{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    margin-top: 6px;
+    right: 0px;
+    background-color: transparent;
+
+}
+
+.logo{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    font-family: Papyrus;
+    font-size: small;
+    font-weight: 800;
+    color: rgb(22, 151, 22);
+    line-height: 50px;
+}
+
+.logo-button{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    margin-top: 9px;
+}
+
+.miniContainerPos{
+    
+    margin-left: 98px;
+    margin-top: 100px;
+}
+
+.analyticsContainer{
+    display: inline-block;
+    border: 1px solid;
+    width: 500px;
+    height: 100px;
+   border-radius: 10px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    background-color: rgb(122, 50, 205);
+    opacity: 0.6;
+
+}
+
+.sections{
+    display: inline-block;
+    width: 246px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: inherit;
+    background-color: rgb(122, 50, 205);
+    opacity: 0.6;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+}
+
+.sections:hover {
+    color:silver;
+    font-weight:bold;
+  }
+
+.analyticsContainer:hover {
+    color:silver;
+    font-weight:bold;
+  }
+
+.list-box{
+    height: 200px;
+    width: 500px;
+    background-color: #d1cbcb;
+}
+
+.ticket-list{
+    height: 150px;
+    width: 400px;
+    margin-left: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    list-style-type: none;
+}
+
+.ticket-list::-webkit-scrollbar {
+    display: none;
+}
+
+
+.ticket{
+    background-color: #e7e9eb;
+    margin-top: 5px;
+    width: 400px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.ticket:hover{
+    background-color: #ffffff;
+}
+
+.listbox-label{
+    margin-left: 12px;
+    vertical-align: bottom;
+}
+
+.password{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+.password[type=submit]{
+    background-color: #04AA6D;
+    color: white;
+}
+
+.login-box{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    bottom: 30px;
+    left: 130px;
+    opacity: 0.85;
+}
